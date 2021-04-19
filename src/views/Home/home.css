@@ -1,12 +1,9 @@
-.product-list {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-}
-
 .card-img-top {
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
   background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .product-description {

@@ -18,8 +18,8 @@ function Login() {
   return (
     <div className="Login">
       <form onSubmit={handleLogin}>
-        <div className="form-group" size="lg" controlId="email">
-          <label for="email">Email</label>
+        <div className="form-group" size="lg">
+          <label htmlFor="email">Email</label>
           <input className="form-control"
             id="email"
             type="email"
@@ -27,8 +27,8 @@ function Login() {
             onChange={(e) => setEmail(e.target.value)}
           />
         </div>
-        <div className="form-group" size="lg" controlId="password">
-          <label for="password">Password</label>
+        <div className="form-group" size="lg">
+          <label htmlFor="password">Password</label>
           <input className="form-control"
             id="password"
             type="password"
